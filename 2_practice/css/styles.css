@@ -46,7 +46,7 @@ img {
 }
 
 .main {
-    box-sizing: border-box;  /* Добавим это */
+    box-sizing: border-box;
     margin: 96px 65px;
 }
 
