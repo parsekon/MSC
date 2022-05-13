@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+p {
+    text-align: justify;
+    padding: 0px 5px 0px 5px;
+}
+
+h1 {
+    background-color: #000;
+    color: #fff;
+    height: 51px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin: 53px 0px 53px 0px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 10px;
+}
+
+img {
+    width: 900px;
+    margin: 0px auto;
+}
+
+.main {
+    box-sizing: border-box;  /* Добавим это */
+    margin: 96px 65px;
+}
+
+ul {
+    margin: 50px;
+}
+
+a {
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+a:link {
+    color: rgb(50, 50, 54);
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+  
+  a:hover {
+    color: rgb(102, 139, 226);
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: orange;
+    ;
+  }
+  
+  a:visited:hover {
+    color: orange;
+  }
+  
+  a:visited:active {
+    color: red;
+  }
