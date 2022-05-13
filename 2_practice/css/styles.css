@@ -1,7 +1,7 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -45,47 +45,45 @@ img {
     margin: 0px auto;
 }
 
-.main {
-    box-sizing: border-box;
-    margin: 96px 65px;
-}
-
 ul {
     margin: 50px;
 }
 
 a {
-font-weight: 700;
-line-height: 29px;
-letter-spacing: 0em;
-text-align: left;
-
-
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 a:link {
     color: rgb(50, 50, 54);
     text-decoration: none;
-  }
+}
   
-  a:visited {
+a:visited {
     color: purple;
-  }
+}
   
-  a:hover {
+a:hover {
     color: rgb(102, 139, 226);
     text-decoration: none;
-  }
+}
   
-  a:active {
+a:active {
     color: orange;
     ;
-  }
+}
   
-  a:visited:hover {
+a:visited:hover {
     color: orange;
-  }
+}
   
-  a:visited:active {
+a:visited:active {
     color: red;
-  }
+}
+
+.main {
+    box-sizing: border-box;
+    margin: 96px 65px;
+}
