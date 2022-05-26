@@ -31,18 +31,24 @@ h1, h2, h3, p {font-size: 20px;}
 
 .column {
     border: 5px solid #E5E000;
-    width: 400px;
+    width: 300px;
     border-radius: 30px;
     padding: 33px;
 }
 
-.column p {
-    text-align: justify;
+.column ul {
     margin: 10px 0 10px 0;
+    list-style: none;
+
+}
+
+.column li {
+    margin-bottom: 3px;
 }
 
 .column h3 {
     font-weight: 400;
+    margin-top: 20px;;
 }
 
 .column h2 {
